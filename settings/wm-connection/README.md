@@ -3,4 +3,4 @@
 1. Windows -> Preferences -> Software AG -> Integration Servers -> Add
 2. Enter the server name, host, port, username, and password.
 
-![example](1.jpg)
+![example](images/1.jpg)

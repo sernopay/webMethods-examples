@@ -6,7 +6,7 @@ In this example, we will demonstrate how repeat works on success.
 
 1. Add `REPEAT` and configure the repeat properties.
 2. Set the count = 2, repeat interval = 10, repeat on = SUCCESS \
-![](1.jpg)
+![](images/1.jpg)
 3. Add pub.flow:debuglog to the repeat step to log the message. \
-![](2.jpg) \
+![](images/2.jpg) \
 based on the configuration, the debuglog operation will be repeated 2 times with an interval of 10 seconds in case of success.

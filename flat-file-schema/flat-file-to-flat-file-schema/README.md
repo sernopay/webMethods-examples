@@ -21,23 +21,23 @@ EMPLOYEE,5,David Brown,32,5500
    * Character : `newline`
    * Field or composite : `Character` and set the value to `,`
    * The final configuration should look like this:
-     ![](1.jpg)
+     ![](images/1.jpg)
 
 5. Open the `Flat File Structure` tab, and set the following properties:
    * In the `Name` of schema, right click and select `new`. This will open a new window and select `Record definition` then click `Next` \
-   ![](2.jpg)
+   ![](images/2.jpg)
    * Set the name to `EMPLOYEE` and click `Finish` \
-   ![](3.jpg)
+   ![](images/3.jpg)
    * Set the `Max repeat` property of the created `EMPLOYEE` to `Unlimited` \
-   ![](8.jpg)
+   ![](images/8.jpg)
    * Right click on the `EMPLOYEE` and select `new` then select `Field definition` and click `Next` \
-   ![](4.jpg)
+   ![](images/4.jpg)
    * Set Extractor Type to `Nth Field`, and set the value like this: \
-   ![](5.jpg)
+   ![](images/5.jpg)
    * Click `Finish`, the final configuration should look like this: \
-   ![](6.jpg)
+   ![](images/6.jpg)
 
 6. Save and run the flat file schema to test the configuration by right clicking on the schema -> run as -> flat file schema.
-![Run](7.jpg) \
+![Run](images/7.jpg) \
 browse the file and select the `employee.csv` file, then click `OK`. The result should look like this:
-![](9.jpg)
+![](images/9.jpg)

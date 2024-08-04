@@ -4,7 +4,7 @@ In this example, we will sum three numbers and return the result.
 
 1. Create a new Java service and name it `SumThreeNumbers`.
 2. Add three inputs and one output. Name them `input1`, `input2`, `input3`, and `output` respectively. \
-![](2.jpg)
+![](images/2.jpg)
 3. Add the following code to the `SumThreeNumbers.java` file:
 ```java
 	public static final void SumThreeNumbers(IData pipeline) throws ServiceException {
@@ -30,4 +30,4 @@ In this example, we will sum three numbers and return the result.
 	}
 ```
 4. Save the service, and run the service with the input values `input1=10`, `input2=20`, and `input3=30`. The service will return the output value `60`. \
-![](images/output.png)
+![](images/1.jpg)

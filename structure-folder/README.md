@@ -1,6 +1,6 @@
 # Structure Folder Suggestion
 
-![folder structure](structure-folder.jpg)
+![folder structure](images/structure-folder.jpg)
 
 It's recommended that the package name is the same as the folder name.
 

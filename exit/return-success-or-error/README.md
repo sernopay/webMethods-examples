@@ -12,8 +12,8 @@ In this example, we will create a service that returns a success or error based 
     * set the `Label` property of the sequence to `null`.
     * add `EXIT` step to the sequence, and set the `Signal` property to `Failure`, set `Exit from` property to `$flow`, set the `Failure Message` property to `Input is empty`. This will exit the service with a failure signal.
 5. The final service should look like this: \
-![](1.jpg)
+![](images/1.jpg)
 6. Save and run the service. If the input is empty, the service will return an error. \
-![](2.jpg) \
+![](images/2.jpg) \
 If the input is not empty, the service will return a success. \
-![](3.jpg) 
+![](images/3.jpg) 
