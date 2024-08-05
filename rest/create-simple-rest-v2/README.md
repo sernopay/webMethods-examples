@@ -1,4 +1,4 @@
-# Create Simple REST API using Rest Resourc V2
+# Create Simple REST API using Rest Resource V2
 
 ## Create a Flow Service
 Before creating a REST API, we will create a simple flow service that will be used to implement the REST API. This flow service will be used to get a member by its UID.
